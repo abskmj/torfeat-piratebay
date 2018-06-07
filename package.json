@@ -1,0 +1,31 @@
+{
+  "name": "@abskmj/torfeat-piratebay",
+  "version": "1.0.0",
+  "description": "Node.js client for The Pirate Bay torrent indexing site",
+  "keywords": [
+    "client",
+    "tpb.org",
+    "tpb",
+    "ThePirateBay",
+    "torfeat",
+    "torrent",
+    "search",
+    "scrapper"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abskmj@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.1",
+    "debug": "^2.6.8",
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abskmj/torfeat-piratebay.git"
+  }
+}
